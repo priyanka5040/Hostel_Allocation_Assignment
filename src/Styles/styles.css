@@ -1,0 +1,99 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    width:90vw;
+    margin:auto;
+}
+.logo{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height : 30px;
+    width:30px;
+    margin-right : 10px;
+}
+.line{
+    border: 0.5px solid gray;
+    margin:auto;
+}
+.App{
+    display : flex;
+    height:60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choose{
+    display : flex;
+    width : 80%;
+    justify-content: space-around;
+    margin: auto;
+}
+.girls, .boys{
+    width:30vw;
+    height:50vh;
+    border-radius:15px;
+    background-color: lightpink;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.boys{
+    background-color:lightblue;
+}
+.choose img{
+    height : 100px !important;
+    width:100px;
+}
+.hostel{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    width:30vw;
+    margin: auto;
+    margin-top: 20vh;
+
+}
+.hostel div{
+    background-color:gray;
+    border-radius: 10px;
+    height:10vh;
+    width:10vh;
+    display : flex;
+    align-items: center;
+    justify-content:center;
+    color:white
+}
+.choosefloor{
+    width:20vw;
+    margin: auto;
+}
+.choosefloor h4, .choosefloor select{
+    text-align:center;    
+}
+.chooseRoom{
+    width:30vh;
+    display : grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.room{
+    background-color:lightseagreen;
+    height:100px;
+    width:100px;
+    display : flex;
+    justify-content:center;
+    align-items: center;
+}
+.result{
+    display : flex;
+    width:50%;
+    background-color:lightblue;
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+    border-radius:15px;
+    margin-top: 20vh;
+}
