@@ -10,7 +10,7 @@ function ChooseFloor(){
     const [roomNo, setRoomNo] = useState("");
     const { hostelno } = useParams();
     const {setAppUser, appUser} = useContext(userContext);
-    console.log(roomNo);
+    console.log(floor);
     let arr = new Array(10).fill(1);
 
     if(roomNo){
